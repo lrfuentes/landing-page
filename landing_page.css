@@ -1,0 +1,116 @@
+body {
+    font-family: Roboto;
+}
+header {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+header, footer {
+    background-color: #1F2937;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+button {
+    background-color: #3882F6;
+}
+.center-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+.hero, .hero-body {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.hero {
+    padding-top: 1%;
+}
+.hero-body {
+    padding-bottom: 4%;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.hero-body-left {
+    width: 25%;
+}
+.hero-body-right {
+    align-content: center;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    height: 20%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards {
+    display: flex;
+    flex: 1 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cards .card {
+    width: 10%;
+    text-align: center;
+}
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.sign {
+    align-self: flex-end;
+    margin: 0px;
+}
+.quote-container > p {
+    margin: 0px;
+}
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.text {
+    background-color: #3882F6;
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #F9FAF8;
+    display: flex;
+}
+.text button {
+    color: #F9FAF8;
+}
